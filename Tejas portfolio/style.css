@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(117, 156, 189);
+    width: 434px;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: pink; */
+    height: 70vh;
+    width: 70vw;
+    margin: 144px auto;
+    font-family: 'Source Code Pro', monospace;
+    /* display: flex; */
+    text-align: center;
+}
+
+.devinfo{
+    margin: 10vh auto  ;
+
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.about{
+    font-size: 40px;
+}
+
+.devinfo button{
+    margin-top: 3vh;
+    padding: 0.5rem 1rem;
+    border-radius: 10rem;
+    color: white;
+    background-color:cadetblue;
+    cursor: pointer;
+}
+
+.devinfo button:hover{
+    color: cadetblue;
+    background-color:white;
+}
+
+.contactform {
+    padding: 0 34px;
+ padding-top: 144px;   
+}
+.contactform form div {
+      padding: 10px 0px;
+}
+.contactform  h1 {
+    text-align: center;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
