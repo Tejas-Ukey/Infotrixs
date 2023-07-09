@@ -11,8 +11,7 @@
 <body>
     <div class="container">
 
-        <div class="sidebar">
-            <!-- Tejas -->
+        <div class="sidebar sidebargo">
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -24,9 +23,17 @@
             </nav>
         </div>
         <div class="main">
+          <div class="menu">
+            <img class="open" src="./img/menu.png" alt="" width="23">
+            <img class="cross" src="./img/cross.png" alt="" width="23">
+        </div>
             <div class="contactform">
                 <h1>Contact Me</h1>
                 <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Your name</label>
+                      <input type="text" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                    </div>
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Email address</label>
                       <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
@@ -34,18 +41,25 @@
                     </div>
                     <div class="mb-3">
                       <label for="InputPhone" class="form-label">Phone</label>
-                      <input type="password" class="form-control" id="InputPhone">
+                      <input type="number " class="form-control" id="InputPhone">
+                      <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
                     </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="iscompany">
-                      <label class="form-check-label" for="iscompany">Lets connect</label>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Message</label>
+                        <input type="name" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" id="form-check-input" id="iscompany">
+                      <label class="form-check-label" for="iscompany">I want to work on a project with you</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary buttons">Submit</button>
                   </form>
             </div>
         </div>
 
     </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
